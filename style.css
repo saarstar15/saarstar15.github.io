@@ -1,0 +1,10 @@
+body {
+  background-color: salmon;
+  margin:40px;
+}
+
+.header {
+  font-style:italic;
+  font-size:50px;
+  color:white;
+}
