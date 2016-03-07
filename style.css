@@ -1,0 +1,41 @@
+body {
+  width:2014px;
+  height:1536px;
+}
+
+.titleimage {
+  padding:50px;
+}
+
+.titleimage h1 {
+  width:800px;
+  position:absolute;
+  left:1250px;
+  top:675px;
+  color:white;
+  font-size:39px;
+  font-weight:bold;
+  font-family:alegreya sans;
+}
+
+.playbtn {
+  position:absolute;
+  left:1250px;
+  top:775px;
+  width:273px;
+  height:143px;
+  background-color: #5d9463;
+  border-radius:25px;
+  box-shadow: 7px 9px 28px -2px rgba(0,0,0,0.75);
+}
+
+.playbtn a {
+  position:absolute;
+  left:70px;
+  top:20px;
+  text-decoration:none;
+  font-size:80px;
+  font-weight:lighter;
+  font-family:alegreya sans;
+  color:white;
+}
