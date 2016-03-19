@@ -175,6 +175,10 @@ padding-left:50px;
 
 }
 
+.nav {
+  text-decoration-none;
+}
+
 #gamescreen ul {
   margin-top:0;
   text-decoration-none;
@@ -221,7 +225,7 @@ padding-left:50px;
 
 .assets .hbarb.moved {
   left:236px;
-  top:122px;
+  top:124px;
 }
 
 .assets .hcone {
@@ -230,7 +234,7 @@ padding-left:50px;
 }
 
 .assets .hcone.moved {
-  left:236px;
+  left:239px;
   top:122px;
 }
 
@@ -240,8 +244,8 @@ padding-left:50px;
 }
 
 .assets .hgreat.moved {
-  left:236px;
-  top:122px;
+  left:238px;
+  top:128px;
 }
 
 .assets .cuirass {
@@ -251,7 +255,7 @@ padding-left:50px;
 
 .assets .cuirass.moved {
   left:221.5px;
-  top:222.5px;
+  top:218px;
 }
 
 .assets .gorget {
@@ -260,7 +264,7 @@ padding-left:50px;
 }
 
 .assets .gorget.moved {
-  left:235px;
+  left:232px;
   top:209px;
 }
 
@@ -271,7 +275,7 @@ padding-left:50px;
 
 .assets .rleg.moved {
   left:281px;
-  top:380px;
+  top:376px;
 }
 
 .assets .lleg {
@@ -292,8 +296,8 @@ padding-left:50px;
 }
 
 .assets .lpauld.moved {
-  left:203.5px;
-  top:221.5px;
+  left:200px;
+  top:215px;
 }
 
 .assets .rpauld {
@@ -303,7 +307,7 @@ padding-left:50px;
 
 .assets .rpauld.moved {
   left:293px;
-  top:221.5px;
+  top:215px;
 }
 
 .assets .fauld {
@@ -312,18 +316,18 @@ padding-left:50px;
 }
 
 .assets .fauld.moved {
-  left:214px;
-  top:333px;
+  left:210px;
+  top:330px;
 }
 
 .assets .lrebrace {
-  left:820px;
+  left:818px;
   top:350px;
   transform: rotate(-25deg);
 }
 
 .assets .lrebrace.moved {
-  left:178.5px;
+  left:173px;
   top:269.5px;
   transform: rotate(0deg);
 }
@@ -336,7 +340,7 @@ padding-left:50px;
 
 .assets .rrebrace.moved {
   left:326px;
-  top:281px;
+  top:273px;
   transform: rotate(0deg);
 }
 
@@ -360,7 +364,7 @@ padding-left:50px;
 
 .assets .rgaunt.moved {
   left:341px;
-  top:347px;
+  top:335px;
   transform: rotate(0deg);
 }
 
@@ -396,7 +400,7 @@ padding-left:50px;
 
 .assets .sword.moved {
   left:49px;
-  top:132.5px;
+  top:120px;
   transform: rotate(0deg);
 }
 
@@ -421,6 +425,11 @@ padding-left:50px;
   transition: .5s;
 
 }
+
+.noBkg {
+  background-image:none;
+}
+
 
 /*END SCREEN STYLES*/
 

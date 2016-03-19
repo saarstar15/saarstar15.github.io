@@ -15,6 +15,7 @@ $('.playbtn').click(
   function(){
     $('#splashscreen').addClass('hide')
     $('#gamescreen').removeClass('hide')
+    $('.nav').removeClass('hide')
   }
 )
 
@@ -26,8 +27,9 @@ $('.item').click(
 
 $('.fin a ').click(
   function() {
-    $('#gamescreen').addClass('hide')
-    $('#endscreen').removeClass("hide")
+    $('#gamescreen').addClass('noBkg')
+    $('.nav').addClass('hide')
+    $('#endscreen').removeClass('hide')
   }
 )
 
