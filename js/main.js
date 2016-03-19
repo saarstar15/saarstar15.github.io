@@ -36,7 +36,7 @@ $('.quit a ').click(function() {
 });
 
 $('.res a ').click(function() {
-    $('#gamescreen').REFRESH();
+    $('.item').removeClass('moved');
 });
 
 

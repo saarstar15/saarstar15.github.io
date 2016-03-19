@@ -119,7 +119,7 @@ body {
   top:320px;
   color:white;
   font-size:30px;
-  font-weight:bold;
+  font-weight:normal;
   font-family:alegreya sans;
 }
 
@@ -153,14 +153,9 @@ padding-left:50px;
      color:white;
    }
 
-   /*CONTROL BAR STYLES*/
 
-   #controlbtns {
+/*GAME SCREEN STYLES*/
 
-   }
-
-
-   /*GAME SCREEN STYLES*/
 #gamescreen {
   width:1024px;
   height:768px;
@@ -181,11 +176,13 @@ padding-left:50px;
 }
 
 #gamescreen ul {
+  margin-top:0;
   text-decoration-none;
 }
 
 #gamescreen li {
   text-decoration-none;
+  list-style-type: none;
   float:left;
 }
 
@@ -194,17 +191,26 @@ padding-left:50px;
   padding:10px;
   margin:50px;
   display:inline-block;
-  background-color:black;
   width:50px;
   height:15px;
   text-align:center;
-  font-weight:lighter;
   font-family:alegreya sans;
   color:white;
   border-radius:10px;
   box-shadow: 7px 9px 28px -2px rgba(0,0,0,0.75);
 }
 
+.fin a {
+  background-color:#5d9463;
+}
+
+.quit a {
+  background-color:#9e0b0f;
+}
+
+.res a {
+  background-color:#808285;
+}
 
 /**START ITEM ASSETS (THEY MOVE)**/
 
