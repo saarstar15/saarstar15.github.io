@@ -1,20 +1,85 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Squire! Squire! Squire!</title>
+  <meta name="description" content="">
+  <meta name=”viewport” content=”width=device-width, user-scalable=no” />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,300' rel='stylesheet' type='text/css'>
 </head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<body background="site images/background.jpg">
-<div class="splashscreen">
-  <div class="playbtn"><a href="instructions">Play</a>
-  </div>
+
+<body>
+<div class="wrapper">
+
+<section id="splashscreen" class="content-box">
 <div class="titleimage">
-  <h1>A MEDIEVAL DRESS UP GAME</h1>
-  <img src="site images/titleimg.png">
+  <img src="img/titleimg.png" width=427px height=357></img>
+      </div>
+      <h1>A Medieval Dress Up Game</h1>
+      <div class="playbtn"><a href="#gamescreen">Play</a>
+      </div>
+</section>
+
+<!--
+<section id="controlbtns" class="content-box hide">
+  <div class="ctrlbtnplay"><a href="#PUTNNAMEHERE"></div>
+</section>
+-->
+
+<section id="gamescreen" class="content-box hide">
+  <div class="assets">
+    <ul>
+      <li class="fin"><a href="#endscreen">Finish</a></li>
+      <li class="res"><a href="#gamescreen">Reset</a></li>
+      <li class="quit"><a href="#splashscreen">Quit</a></li>
+  </ul>
+    <img class="man" src="img/man.png" width=238.5px height=510></img>
+    <img class="item lsab" src="img/lsab.png" width=66px height=68.5px></img>
+    <img class="item rsab" src="img/rsab.png" width=89px height=45.5px></img>
+    <img class="item rleg" src="img/rleg.png" width=65.5px height=251.5px></img>
+    <img class="item lleg" src="img/lleg.png" width=55.5px height=232.5px></img>
+    <img class="item cuirass" src="img/cuirass.png" width=110.6px height=219px></img>
+    <img class="item lgaunt" src="img/lgaunt.png" width=83.5px height=99.5px></img>
+    <img class="item rgaunt" src="img/rgaunt.png" width=35px height=101.5px></img>
+    <img class="item lrebrace" src="img/lrebrace.png" width=63.5px height=109.5px></img>
+    <img class="item rrebrace" src="img/rrebrace.png" width=43.5px height=107px></img>
+    <img class="item lpauld" src="img/lpauld.png" width=62.5px height=76.5px>9</img>
+    <img class="item rpauld" src="img/rpauld.png" width=62.5px height=76.5px></img>
+    <img class="item gorget" src="img/gorget.png" width=93px height=39px></img>
+    <img class="item hbarb" src="img/hbarb.png" width=83px height=101.5px></img>
+    <img class="item hcone" src="img/hcone.png" width=70.5px height=105px></img>
+    <img class="item hgreat" src="img/hgreat.png" width=72px height=103.5px></img>
+    <img class="item fauld" src="img/fauld.png" width=132.5px height=103px></img>
+    <img class="item shield" src="img/shield.png" width=158.5px height=255px></img>
+    <img class="item sword" src="img/sword.png" width=131px height=317.5px></img>
+
+
+<div></div>
+
+
+  </div>
+</section>
+
+<section id="endscreen" class="content-box hide">
+
+</section>
+
+
 </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </div>
-<div class="instructionsscreen">
-  
-</div>
-</body>
-</html>
+  </body>
+  </html>
