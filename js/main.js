@@ -1,20 +1,8 @@
-
-
-/**
-$('.playbtn a').click(
-  function(){
-    $('.hide').fadeOut(500);
-    $( $(this).attr('#gamescreen') ).fadeIn(750);
-  }
-)
-**/
-
-
-
 $('.playbtn').click(
   function(){
     $('#splashscreen').addClass('hide')
-    $('#gamescreen').removeClass('hide')
+    $('#gamescreen').removeClass('hide noBkg')
+    $('.items').removeClass('hide')
     $('.nav').removeClass('hide')
   }
 )
@@ -25,14 +13,6 @@ $('.item').click(
   }
 )
 
-$('.fin a ').click(
-  function() {
-    $('#gamescreen').addClass('noBkg')
-    $('.nav').addClass('hide')
-    $('#endscreen').removeClass('hide')
-  }
-)
-
 $('.quit a ').click(function() {
     location.reload();
 });
@@ -40,6 +20,20 @@ $('.quit a ').click(function() {
 $('.res a ').click(function() {
     $('.item').removeClass('moved');
 });
+
+$('.fin a').click(
+  function() {
+    $('#gamescreen').addClass('noBkg')
+    $('.nav').addClass('hide')
+    $('#endscreen').removeClass('hide')
+  }
+)
+
+
+/** IF COMMAND FOR .ITEMS?
+if($('.item')).hasClass('moved'))
+  $('this').addClass('hide');
+**/
 
 
 /** TIME OUT AFTER 5 MINUTES?
