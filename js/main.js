@@ -2,8 +2,9 @@ $('.playbtn').click(
   function(){
     $('#splashscreen').addClass('hide')
     $('#gamescreen').removeClass('hide noBkg')
+    $('.endscreen').addClass('hide')
     $('.items').removeClass('hide')
-    $('.nav').removeClass('hide')
+    $('.game-nav').removeClass('hide')
   }
 )
 
@@ -24,8 +25,15 @@ $('.res a ').click(function() {
 $('.fin a').click(
   function() {
     $('#gamescreen').addClass('noBkg')
-    $('.nav').addClass('hide')
-    $('#endscreen').removeClass('hide')
+    $('.game-nav').addClass('hide')
+    $('.endscreen').removeClass('hide')
+    $('.end-nav').removeClass('hide')
+  }
+)
+
+$('.playagain a').click(
+  function() {
+    location.reload();
   }
 )
 

@@ -20,6 +20,9 @@
 
 <body>
 <div class="wrapper">
+<audio autoplay>
+  <source src="img/Theme.mp3" type="audio/mpeg">
+</audio>
 
   <!-- SLASH SCREEN SECTION -->
 <section id="splashscreen" class="content-box">
@@ -34,11 +37,13 @@
   <!-- GAME SCREEN SECTION -->
 <section id="gamescreen" class="content-box hide noBkg">
   <div class="assets">
-    <ul class="nav hide">
+    <div class="game-navpos">
+    <ul class="game-nav hide">
       <li class="fin"><a href="#endscreen">Finish</a></li>
       <li class="res"><a href="#gamescreen">Reset</a></li>
       <li class="quit"><a href="#splashscreen">Quit</a></li>
   </ul>
+</div>
     <div class="items hide">
       <img class="man" src="img/man.png" width=238.5px height=510></img>
       <img class="item lsab" src="img/lsab.png" width=66px height=68.5px></img>
@@ -61,15 +66,23 @@
       <img class="item sword" src="img/sword.png" width=131px height=317.5px></img>
     </div>
   </div>
+  <div class="endscreen hide">
+    <div class="end-navpos">
+    <ul class="end-nav hide">
+      <li class="print"><a href="http://giphy.com/gifs/WIg8P0VNpgH8Q/html5">Print $1.00</a></li>
+      <li class="email"><a href="mailto:someone@example.com?Subject=Knight%20Printing">Email</a></li>
+      <li class="playagain"><a href="#gamescreen">Play Again</a></li>
+    </ul>
+  </div>
+    <img src="img/endinfo.png" width=574.5px height=672px></img>
+  </div>
 </section>
 
-<!-- END SCREEN SECTION -->
+<!-- END SCREEN SECTION
 <section id="endscreen" class="content-box hide">
-<div class="endinfo">
-  <img src="img/endinfo.png" width=574px height=672px></img>
-</div>
-</section>
 
+</section>
+-->
 
 </div>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>

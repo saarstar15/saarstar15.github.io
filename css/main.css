@@ -164,6 +164,10 @@ padding-left:50px;
   background-repeat:no-repeat;
 }
 
+#gamescreen ul {
+  list-style-type:none;
+}
+
 .assets {
   position:relative;
 }
@@ -175,17 +179,19 @@ padding-left:50px;
 
 }
 
-#gamescreen ul {
+.game-navpos {
   position:absolute;
   left:-15px;
-  top:30px;
+  top:30px;}
+
+.game-nav ul {
 }
 
-#gamescreen li {
+.game-nav li {
   float:left;
 }
 
-#gamescreen a {
+.game-nav a {
   text-decoration: none;
   padding:10px;
   margin-right:50px;
@@ -435,22 +441,72 @@ padding-left:50px;
 .item {
   position:absolute;
   transition: .5s;
-
-/*END SCREEN STYLES*/
-
-#endscreen {
-  width:1024px;
-  height:768px;
-  background-image:url(../img/background.jpg);
-  background-size: 1024px;
-  background-repeat:no-repeat;
 }
 
+/* START END INFO STYLES (WITHIN #GAMESCREEN) */
+
+.endscreen {
+  position:absolute;
+  left:452px;
+  top:95.5px;
+}
+
+.end-navpos {
+  display:block;
+  position:absolute;
+  left:115px;
+  top:340px;
+}
+
+.end-nav ul {
+  position:absolute;
+  left:-40px;
+  top:50px;
+}
+
+.end-nav a {
+  display:block;
+  padding:15px 60px 15px 60px;
+  margin-bottom:30px;
+  text-decoration:none;
+  text-align:center;
+  font-size:24px;
+  font-family:alegreya sans;
+  color:white;
+  border-radius:10px;
+  box-shadow: 7px 9px 28px -2px rgba(0,0,0,0.75);
+}
+
+.print a {
+  background-color:#5d9463;
+}
+
+.email a {
+  background-color:#5d9463;
+}
+
+.playagain a {
+  background-color: grey;
+}
+
+/*END SCREEN STYLES
+
+#endscreen {
+  position absolute;
+  left:452px;
+  top:95.5px;
+  width:574.5px;
+  height:768px;
+  background-image:url(../img/endinfo.png);
+}
+*/
+/*
 .endinfo {
-  float:right;
+  display:inherit;
   width:574.5px;
   height:672px;
 }
+*/
 
 /* ==========================================================================
    Helper classes
