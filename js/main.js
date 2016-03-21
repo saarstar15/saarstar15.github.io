@@ -1,9 +1,6 @@
-/*
-$('.audio a').click(
-  function(){
-    $('.audio').addClass('muted')
-  }
-*/
+$("#audio").click( function (){
+    $("#music").prop('muted', !$("#music").prop('muted'));
+});
 
 $('.playbtn').click(
   function(){
