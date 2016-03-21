@@ -341,12 +341,14 @@ padding-left:50px;
 .assets .lrebrace {
   left:818px;
   top:350px;
+  -webkit-transform: rotate(-25deg);
   transform: rotate(-25deg);
 }
 
 .assets .lrebrace.moved {
   left:173px;
   top:269.5px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
@@ -354,53 +356,62 @@ padding-left:50px;
   left:640px;
   top:550px;
   transform: rotate(-80deg);
+  -webkit-transform: rotate(-80deg);
 }
 
 .assets .rrebrace.moved {
   left:326px;
   top:273px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
 .assets .lgaunt {
   left:522.5px;
   top:430px;
+  -webkit-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
 
 .assets .lgaunt.moved {
   left:128px;
   top:329px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
 .assets .rgaunt {
   left:930px;
   top:460px;
+  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .assets .rgaunt.moved {
   left:341px;
   top:335px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
 .assets .lsab {
   left:806px;
   top:501px;
+  -webkit-transform: rotate(-50deg);
   transform: rotate(-50deg);
 }
 
 .assets .lsab.moved {
   left:196px;
   top:600px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
 .assets .rsab {
   left:908px;
   top:371px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
@@ -413,6 +424,7 @@ padding-left:50px;
 .assets .sword {
   left:500px;
   top:480px;
+  -webkit-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
 
@@ -425,12 +437,14 @@ padding-left:50px;
 .assets .shield {
   left:470px;
   top:552.5px;
+  -webkit-transform: rotate(-60deg);
   transform: rotate(-60deg);
 }
 
 .assets .shield.moved {
   left:263px;
   top:278px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
