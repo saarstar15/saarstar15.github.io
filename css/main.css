@@ -506,24 +506,17 @@ padding-left:50px;
   background-color: grey;
 }
 
-/*END SCREEN STYLES
+/*END SCREEN STYLES*/
 
-#endscreen {
-  position absolute;
-  left:452px;
-  top:95.5px;
-  width:574.5px;
-  height:768px;
-  background-image:url(../img/endinfo.png);
+.clickblock {
+  width:420px;
+  height:637px;
+  position: absolute;
+  left:22px
+  top:80px;
+  background-color: red;
 }
-*/
-/*
-.endinfo {
-  display:inherit;
-  width:574.5px;
-  height:672px;
-}
-*/
+
 
 /* ==========================================================================
    Helper classes

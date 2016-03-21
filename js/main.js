@@ -28,6 +28,7 @@ $('.fin a').click(
     $('.game-nav').addClass('hide')
     $('.endscreen').removeClass('hide')
     $('.end-nav').removeClass('hide')
+    $('.clickblock').removeClass('hide')
   }
 )
 
