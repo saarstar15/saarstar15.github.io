@@ -1,3 +1,10 @@
+/*
+$('.audio a').click(
+  function(){
+    $('.audio').addClass('muted')
+  }
+*/
+
 $('.playbtn').click(
   function(){
     $('#splashscreen').addClass('hide')
