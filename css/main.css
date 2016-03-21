@@ -299,12 +299,14 @@ padding-left:50px;
 .assets .lleg {
   left:850px;
   top:580px;
+  -webkit-transform: rotate(85deg);
   transform:rotate(85deg);
 }
 
 .assets .lleg.moved {
   left:220px;
   top:380px;
+  -webkit-transform: rotate(0deg);
   transform:rotate(0deg);
 }
 
@@ -431,6 +433,7 @@ padding-left:50px;
 .assets .sword.moved {
   left:49px;
   top:120px;
+  -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
