@@ -127,7 +127,12 @@ textarea {
 }
 
 #header {
+  background-image:url(../img/bonne_bkg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vw;
   padding:30px 60px;
+  margin-bottom:30px;
 }
 
 #header ul{
@@ -185,7 +190,6 @@ textarea {
   margin-right:-20px;
   min-width:185px;
   border-radius:0 25px 0 0;
-
 }
 
 .dropdown-content a {
@@ -234,12 +238,13 @@ textarea {
 
 .header_text {
   margin-top:90px;
+  margin-bottom:30px;
   width:40%;
 }
 
 
 
-/*START MIDDLE STYLES (CASESTUDY PAGES)
+/*START MIDDLE STYLES (CASESTUDY 2PAGES)
 #header.casestudy-bkg {
   background-image:url(../img/bonne_bkg.jpg);
   background-repeat:no-repeat;
@@ -255,6 +260,7 @@ textarea {
 #middle {
 width:100%;
 height:auto;
+margin-bottom:120px;
 }
 
 .content-left {
@@ -264,6 +270,7 @@ height:auto;
 }
 
 .content-right {
+  float:right;
   width:30%;
   height:auto;
   margin-right:60px;
@@ -281,6 +288,7 @@ height:auto;
 /*FOOTER STYLES*/
 
 #footer {
+bottom:0;
 width:100%;
 height:100%;
 /*margin:120px -60px 0 -60px; */
@@ -296,11 +304,6 @@ height:100%;
 
 
 }
-/*
-.work_icon:last-child {
-  margin-right:10%;
-}
-*/
 
 .work_icon img {
   width:100%;
@@ -308,16 +311,20 @@ height:100%;
 
 .work_icon_type {
   padding-left:10%;
+  padding-right:10%;
   padding-top:5%;
   position:absolute;
-  width:90%;
+  width:80%;
   height:95%;
   background-color:rgba(0,0,0,0.5);
   font-size: 16px;
   font-size: 1vw;
   color:#bbbbbb;
   opacity: 0;
-
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: all 700ms ease;
 }
 
 @media screen and (max-width:800px) {
@@ -346,6 +353,8 @@ height:100%;
 }*/
 
 .work_icon_type a{
+  width:100px;
+  height:100%;
   text-decoration:none;
   font-size:1.5vw;
   font-weight:bold;
@@ -367,6 +376,7 @@ height:100%;
   display:inline-block;
   float:right;
   margin-left:60px;
+  margin-top:30px;
   width:315px;
   height:150px;
   background-image:url(../img/about_image.jpg);
@@ -378,7 +388,7 @@ height:100%;
 }
 
 .contact_info p {
-  margin-bottom:10px;
+  margin-bottom:5px;
 }
 
 .contact_info h1 {
@@ -390,7 +400,7 @@ height:100%;
 }
 
 .contact_info h2 {
-  font-weight:normal;
+  font-weight:bold;
   font-size:18px;
   margin-top:0;
 }
