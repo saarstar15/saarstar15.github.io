@@ -127,6 +127,10 @@ textarea {
 }
 
 #header {
+  padding:30px 60px;
+}
+
+#header.casestudy-bkg {
   background-image:url(../img/bonne_bkg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
