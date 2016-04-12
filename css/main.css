@@ -222,15 +222,6 @@ textarea {
 
 }
 
-/* Case Study Header Image Styles*/
-.casestudy_image {
-  position:absolute;
-  z-index: -1;
-  width:100%;
-  height:auto;
-  margin-bottom:30px;
-}
-
 .casestudy_image img {
   width:100%;
   height:auto;
@@ -262,9 +253,12 @@ textarea {
 
 
 #middle {
+display:flex;
 width:100%;
 height:auto;
+margin-bottom:120px;
 }
+
 
 .content-left {
   width:30%;
@@ -274,12 +268,13 @@ height:auto;
 
 .content-right {
   float:right;
-  width:30%;
+  width:60%;
   height:auto;
   margin-right:60px;
+  margin-left:60px;
 }
 
-.casestudy_text {
+.casestudy_text {s
   font-size:16px;
 }
 
@@ -287,6 +282,26 @@ height:auto;
   font-weight:bold;
   font-size:16px;
 }
+
+.casestudy_image {
+  width:100%;
+}
+
+.casestudy_image img{
+}
+
+.casestudy_double_image {
+  margin-top:30px;
+}
+
+.casestudy_double_image img{
+  display:inline-block;
+  float:left;
+  width:45%;
+  margin-right:30px;
+
+}
+
 
 /*FOOTER STYLES*/
 
