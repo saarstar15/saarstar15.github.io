@@ -520,7 +520,7 @@ color:white;
     #middle {
     display:block;
     height:auto;
-    margin-bottom:120px;
+    margin-bottom:0;
     }
 
     .content-left {
