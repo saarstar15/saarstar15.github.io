@@ -621,6 +621,7 @@ ul.header_nav.white{
     border:none;
     cursor:pointer;
     margin-left:100px;
+    padding:0;
   }
 
   .dropdown {
