@@ -587,13 +587,22 @@ color:white;
 
   }
 
+ul.header_nav.white{
+  margin-top:0;
+  margin-bottom:0;
+}
+
   .header_text {
     margin-top:90px;
     margin-bottom:30px;
-    width:40%;
+    width:auto;
+    margin-left:-30px;
+    margin-right:-30px;
   }
 
-
+.header_text h1 {
+  font-size: 1.5em;
+}
 
   /* Drop Down Styles */
 
@@ -608,7 +617,7 @@ color:white;
   }
 
   .dropdown {
-    padding-top:0;
+    padding-top:24px;
     position: relative;
     float:right;
     display:inline-block;
