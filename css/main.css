@@ -504,7 +504,7 @@ color:white;
 
 /* Case Study Page */
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:540px) {
     .bkg_textbox {
       display:flex;
       width: auto;
@@ -587,6 +587,11 @@ color:white;
   }
 
 ul.header_nav.white{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+ul.header_nav{
   margin-top:0;
   margin-bottom:0;
 }
@@ -712,7 +717,28 @@ ul.header_nav.white{
 
   }
 
+/* About page Styles */
+
+  .about_image {
+    margin-left:30px;
+  }
+
+
 }
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:1300px) {
+  .wrapper {
+    width:auto;
+    height:auto;
+    font-family:maven pro;
+    position:relative;
+  }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
