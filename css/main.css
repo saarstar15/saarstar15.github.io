@@ -105,6 +105,14 @@ textarea {
   font-size
 }
 
+.wrapper.construction {
+  background-color:#414042;
+}
+
+.white_type {
+  color:white;
+}
+
 
 /*START HEADER STYLES*/
 
@@ -112,12 +120,12 @@ textarea {
   width:50px;
   height:60px;
   display:inline-block;
-  background-image:url(../img/logo_Blk.png);
+  background-image:url(../img/logo-blk.png);
   background-size:cover;
 }
 
 .logo:hover {
-  background-image:url(../img/logo_grey.png);
+  background-image:url(../img/logo-grey.png);
 }
 
 .logo a {
@@ -131,10 +139,10 @@ textarea {
 }
 
 #header.casestudy-bkg {
-  background-image:url(../img/bonne_bkg.jpg);
+  background-image:url(../img/bonne-bkg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 35vw;
+  /*height: 35vw;*/
   padding:30px 60px;
   margin-bottom:30px;
 }
@@ -163,6 +171,37 @@ textarea {
 
 .header_nav a:hover {
   color:#cbcbcb;
+}
+
+.header_text {
+  margin-top:90px;
+  margin-bottom:30px;
+  width:40%;
+}
+
+.bkg_textbox {
+  display:flex;
+  width: 31%;
+  background-color:rgba(0,0,0,0.5);
+  margin-left: -60px;
+  margin-bottom: -30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top:30px;
+  border-radius:0 60px 0 0;
+}
+
+.bkg_textbox p{
+  color:white;
+  font-weight: lighter;
+
+}
+
+.bkg_textbox h1{
+  height:0px;
+  color:white;
+  font-weight:bold;
+  font-size:16px;
 }
 
 /* Drop Down Styles */
@@ -231,11 +270,7 @@ textarea {
 /* Header Content Styles*/
 
 
-.header_text {
-  margin-top:90px;
-  margin-bottom:30px;
-  width:40%;
-}
+
 
 
 
@@ -248,7 +283,7 @@ textarea {
 */
 
 .logo .white-logo{
-  background-image:url(../img/logo_wht.png);
+  background-image:url(../img/logo-wht.png);
 }
 
 
@@ -345,6 +380,19 @@ height:100%;
   transition: all 700ms ease;
 }
 
+.back_icon_type {
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:5%;
+  position:absolute;
+  width:80%;
+  height:95%;
+  background-color:rgba(0,0,0,0.5);
+  font-size: 16px;
+  font-size: 1vw;
+  color:#bbbbbb;
+}
+
 @media screen and (max-width:800px) {
   .work_icon {
     width:50%;
@@ -357,6 +405,11 @@ height:100%;
 }
 
 .work_icon_type h1{
+  font-size:1.5vw;
+  color:white;
+}
+
+.back_icon_type h1{
   font-size:1.5vw;
   color:white;
 }
@@ -386,7 +439,6 @@ height:100%;
 }
 
 
-
 /* START STYLES FOR ABOUT PAGE */
 
 .about_image {
@@ -397,7 +449,7 @@ height:100%;
   margin-top:30px;
   width:315px;
   height:150px;
-  background-image:url(../img/about_image.jpg);
+  background-image:url(../img/about-image.jpg);
 }
 
 .header_text .about {
@@ -423,7 +475,29 @@ height:100%;
   margin-top:0;
 }
 
+/* START STYLES FOR CONSTRUCTION PAGE */
+#header.construction {
+  width:100%;
+  align-content:center;
+  background-image:url(../img/main-bkg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vw;
+}
 
+#middle.construction {
+width:50%;
+margin: 0 auto;
+text-align:center;
+background-color:#414042;
+color:white;
+}
+
+.construction ul{
+  text-align:right;
+  text-decoration:none;
+  list-style:none;
+}
 
 
 /* ==========================================================================
