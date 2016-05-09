@@ -504,7 +504,7 @@ color:white;
 
 /* Case Study Page */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:500px) {
     .bkg_textbox {
       display:flex;
       width: auto;
@@ -693,10 +693,15 @@ ul.header_nav.white{
     transition: all 700ms ease;
   }
 
+  .back_icon_type {
+    background-color:rgba(0,0,0,0.8);
+
+  }
+
   .work_icon_type h1{
     font-size: 3vw;
 
-}
+  }
 
   .back_icon_type h1{
     font-size: 3vw;
