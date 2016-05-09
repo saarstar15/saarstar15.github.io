@@ -621,7 +621,6 @@ ul.header_nav.white{
     border:none;
     cursor:pointer;
     margin-left:100px;
-    padding:0;
   }
 
   .dropdown {
@@ -673,6 +672,35 @@ ul.header_nav.white{
   .casestudy_image img {
     width:100%;
     height:auto;
+  }
+
+  /* footer Styles */
+  .work_icon_type {
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:5%;
+    position:absolute;
+    width:80%;
+    height:95%;
+    background-color:rgba(0,0,0,0.5);
+    font-size: 16px;
+    font-size: 2.5vw;
+    color:#bbbbbb;
+    opacity:100;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+  }
+
+  .work_icon_type h1{
+    font-size: 3vw;
+
+}
+
+  .back_icon_type h1{
+    font-size: 3vw;
+
   }
 
 }
