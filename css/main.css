@@ -149,7 +149,7 @@ textarea {
 
 #header ul{
   float:right;
-  text-alight:right;
+  text-align:right;
   list-style-type:none;
   text-decoration:none;
   font-size:16px;
@@ -499,7 +499,166 @@ color:white;
   list-style:none;
 }
 
+/* START STYLES FOR RESPONSIVITY */
 
+
+/* Case Study Page */
+
+@media screen and (max-width:375px) {
+    .bkg_textbox {
+      display:flex;
+      width: auto;
+      background-color:rgba(0,0,0,0.5);
+      margin-left: -60px;
+      margin-right:-60px;
+      margin-bottom: -30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top:30px;
+      border-radius:0 60px 0 0;
+    }
+
+    #middle {
+    display:block;
+    height:auto;
+    margin-bottom:120px;
+    }
+
+    .content-left {
+      width:auto;
+      height:auto;
+      margin-left:30px;
+      margin-right:30px;
+    }
+
+    .content-right {
+      width:100%;
+      float:right;
+      height:auto;
+      margin-left:0px;
+      margin-right:0px;
+    }
+
+    .casestudy_text {s
+      font-size:16px;
+      }
+
+    .casestudy_text h1{
+      font-weight:bold;
+      font-size:16px;
+    }
+
+    .casestudy_image {
+      width:100%;
+    }
+
+    .casestudy_image img{
+    }
+
+    .casestudy_double_image {
+      margin-top:30px;
+    }
+
+    .casestudy_double_image img{
+      display:inline-block;
+      float:left;
+      width:100%;
+      margin-right:30px;
+
+    }
+
+  .left-img {
+    margin-bottom:30px;
+  }
+
+  .right-img {
+    margin-bottom:30px;
+  }
+
+  /* Header Navigation */
+  .header_nav a{
+    display:block;
+    text-decoration:none;
+    margin-left: 60px;
+    padding:0px;
+    color:#414042;
+    margin-top:0;
+    margin-bottom:0;
+
+  }
+
+  .header_text {
+    margin-top:90px;
+    margin-bottom:30px;
+    width:40%;
+  }
+
+
+
+  /* Drop Down Styles */
+
+  .dropbtn {
+    background-color:inherit;
+    color:#414042;
+    font-size:16px;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    margin-left:100px;
+  }
+
+  .dropdown {
+    padding-top:0;
+    position: relative;
+    float:right;
+    display:inline-block;
+    margin-top:-50px;
+  }
+
+  .dropdown-content {
+    display:none;
+    position absolute;
+    background-color:rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom:10px;
+    margin-top:-35px;
+    margin-right:-20px;
+    min-width:185px;
+    border-radius:0 25px 0 0;
+  }
+
+  .dropdown-content a {
+    color:#bbbbbb;
+    padding:12px 16px;
+    text-decoration:none;
+    font-size:13px;
+    display:block;
+    line-height:70%;
+  }
+
+
+  .dropdown-content a:hover {
+    color:white;
+    font-weight:bolder;
+  }
+
+
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+
+  .dropdown:hover .dropbtn {
+    color:white;
+    pointer-events:none;
+
+  }
+
+  .casestudy_image img {
+    width:100%;
+    height:auto;
+  }
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
