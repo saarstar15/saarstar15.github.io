@@ -138,8 +138,17 @@ textarea {
   padding:30px 60px;
 }
 
-#header.casestudy-bkg {
+#header.casestudy-bkg.bonne {
   background-image:url(../img/bonne-bkg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*height: 35vw;*/
+  padding:30px 60px;
+  margin-bottom:30px;
+}
+
+#header.casestudy-bkg.togetherfund {
+  background-image:url(../img/togetherfund-bkg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   /*height: 35vw;*/
@@ -177,6 +186,13 @@ textarea {
   margin-top:90px;
   margin-bottom:30px;
   width:40%;
+}
+
+.header_text.togetherfund {
+  margin-top:90px;
+  margin-bottom:30px;
+  width:40%;
+  color:black;
 }
 
 .bkg_textbox {
@@ -332,11 +348,14 @@ margin-bottom:120px;
 .casestudy_double_image img{
   display:inline-block;
   float:left;
-  width:45%;
+  width:40%;
   margin-right:30px;
 
 }
 
+.right-img img{
+  margin-right:-30px;
+}
 
 /*FOOTER STYLES*/
 
@@ -724,6 +743,24 @@ ul.header_nav{
   }
 
 
+}
+
+@media screen and (max-width:900px) {
+    .casestudy_double_image img{
+      display:inline-block;
+      float:left;
+      width:100%;
+      margin-right:30px;
+
+    }
+
+  .left-img {
+    margin-bottom:30px;
+  }
+
+  .right-img {
+    margin-bottom:30px;
+  }
 }
 
 @media screen and (max-width:1024px) {
