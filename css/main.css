@@ -105,10 +105,6 @@ textarea {
   font-size
 }
 
-.wrapper.construction {
-  background-color:#414042;
-}
-
 .white_type {
   color:white;
 }
@@ -155,6 +151,16 @@ textarea {
   padding:30px 60px;
   margin-bottom:30px;
 }
+
+#header.construction {
+  background-color:#f6f4f5;
+  background-image:url(../img/underconstruction.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 51vw;
+  padding:30px 60px;
+}
+
 
 #header ul{
   float:right;
@@ -494,7 +500,7 @@ height:100%;
   margin-top:0;
 }
 
-/* START STYLES FOR CONSTRUCTION PAGE */
+/* START STYLES FOR CONSTRUCTION PAGE
 #header.construction {
   width:100%;
   align-content:center;
@@ -517,6 +523,7 @@ color:white;
   text-decoration:none;
   list-style:none;
 }
+*/
 
 /* START STYLES FOR RESPONSIVITY */
 
